@@ -10,6 +10,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+* {
+  box-sizing: border-box;
+}
+
+
 html {
     color: #222;
     font-size: 1em;
@@ -95,23 +100,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-* {
-    box-sizing: border-box;
-}
+
 
 /* ==========================================================================
-   Header
+   Header and navigation
    ========================================================================== */
 
 
 header {
     width: 100%;
     float: left;
+    display: inline-block;
 }
 
 nav {
     display: inline-block;
-    float: left;
+    float: right;
 }
 
 .navbar li{
@@ -125,11 +129,33 @@ nav {
   font-size: 20px;
 }
 
+/* ==========================================================================
+   Body Layout
+   ========================================================================== */
+.banner{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.paragraph{
+  width:100%;  
+  float: left;
+  margin-top: 200px;
+}
 
 
-
-
-
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+.button {
+    text-align: center;
+    color: black;
+    margin: 0px 0px 0px 635px;
+    background: red;
+    border-radius: 5px;
+    padding: 10px;
+   }
 
 
 
