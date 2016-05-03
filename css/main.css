@@ -99,7 +99,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
 
 /* ==========================================================================
@@ -113,20 +115,39 @@ header {
     display: inline-block;
 }
 
+h1 a {
+    font-family: 'Londrina Outline', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 55px;
+    color: #89DA59;
+}
+
 nav {
     display: inline-block;
     float: right;
+    margin-right: 10px;
 }
 
 .navbar li{
   display: inline-block;
+  background-color: #F98866;
+
 }
 
 .navbar a{
   text-decoration: none;
   padding: 10px 30px 0px 0px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 25px;
+}
+
+a:hover{
+    color: black;
 }
 
 /* ==========================================================================
@@ -135,26 +156,76 @@ nav {
 .banner{
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.paragraph{
   width:100%;  
   float: left;
-  margin-top: 200px;
+
 }
 
+.blurb{
+  float: left;
+  height: 375px;
+  width: 45%;
+  background-color:rgba(255,255,255,0.75);
+  color: #080808;
+  margin: 25px 65px 0 0;
+}
+
+.blurb>h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 50px 0px 0px 50px;     
+}
+
+.blurb>p{
+  font-size: 20px;
+  padding: 0px 50px 20px 50px;
+}
+
+.envelope{
+  height: 375px;
+  width: 45%;
+  float: left;
+}
+
+.envelope>h3{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+}
+
+.envelope>p{
+  padding: 0px 0px 20px 0px;
+  font-size: 20px;
+}
+
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer{
+  background: #80BD9E;
+  width: 100%;
+  padding:5px 0px 5px 45px;
+  float: left;
+  clear: both;
+}
 
 /* ==========================================================================
    Buttons
    ========================================================================== */
-.button {
+/*.button {
     text-align: center;
-    color: black;
-    margin: 0px 0px 0px 635px;
-    background: red;
+    background: #F98866;
     border-radius: 5px;
     padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
    }
 
 
