@@ -108,12 +108,11 @@ body {
    Header and navigation
    ========================================================================== */
 
-
 header {
     width: 100%;
     float: left;
     display: inline-block;
-}
+  }
 
 h1 a {
     font-family: 'Londrina Outline', cursive;
@@ -122,6 +121,7 @@ h1 a {
     font-size: 50px;
     margin-left: 55px;
     color: #89DA59;
+    margin-left: -75%;
 }
 
 nav {
@@ -153,55 +153,37 @@ a:hover{
 /* ==========================================================================
    Body Layout
    ========================================================================== */
-.banner{
-  background-position: center;
-  background-repeat: no-repeat;
-  width:100%;  
-  float: left;
-
-}
-
-.blurb{
-  float: left;
-  height: 375px;
-  width: 45%;
-  margin: 25px 65px 0 0;
-}
-
-.blurb>h2{
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
+h1{
+  text-align: center;
+  font-size: 25px;
   text-transform: uppercase;
-  padding: 50px 0px 0px 50px; 
-  color: #89DA59;    
 }
 
-.blurb>p{
-  font-size: 20px;
-  padding: 0px 50px 20px 50px;
+.first{
+  float: left;
+  width: 25%;
+  margin-left: 10%;
 }
 
-.envelope{
-  height: 375px;
-  width: 45%;
+input {
+  border-radius: 3px;
+  background: white;
+  display: block;
+  float: left;
+  padding: 25px 100px 10px 10px;
+  margin: 5px 330px;
+  border: solid #D3D3D3 1px;
+  color: #D3D3D3;
+}
+
+
+textarea{
   float: right;
-  margin: -26% 5% 0% 0%;
+  border-radius: 3px;
+  border: solid #D3D3D3 1px;
+  margin: 0% 32% 0% 0%;
+  color: #D3D3D3;
 }
-
-.envelope>h3{
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
-  padding: 50px 0px 0px 50px;
-  color: #89DA59;   
-}
-
-.envelope>p{
-  padding: 0px 50px 20px 50px;
-  font-size: 20px;
-}
-
-
 
 
 /* ==========================================================================
@@ -214,6 +196,9 @@ a:hover{
   padding:5px 0px 5px 45px;
   float: left;
   clear: both;
+  position: fixed;
+  bottom: 0;
+  height: 5%;
 }
 
 /* ==========================================================================
@@ -231,24 +216,10 @@ button {
     text-decoration: none;
     border: none;
     position: fixed;
-    left: 45%;
-    bottom: 20%;
+    left: 47%;
+    bottom: 30%;
    }
 
-
-/* ==========================================================================
-   Footer
-   ========================================================================== */
-
-.footer{
-  background: #80BD9E;
-  width: 100%;
-  padding:5px 0px 5px 45px;
-  float: left;
-  clear: both;
-  position: fixed;
-  bottom: 0;
-  height: 5%;
 
 
 
