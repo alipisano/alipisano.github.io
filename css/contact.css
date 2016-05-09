@@ -105,58 +105,14 @@ body {
 
 
 /* ==========================================================================
-   Header and navigation
-   ========================================================================== */
-
-header {
-    width: 100%;
-    float: left;
-    display: inline-block;
-  }
-
-h1 a {
-    font-family: 'Londrina Outline', cursive;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 50px;
-    margin-left: 55px;
-    color: #89DA59;
-    margin-left: -75%;
-}
-
-nav {
-    display: inline-block;
-    float: right;
-    margin-right: 10px;
-}
-
-.navbar li{
-  display: inline-block;
-  background-color: #F98866;
-
-}
-
-.navbar a{
-  text-decoration: none;
-  padding: 10px 30px 0px 0px;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px;
-  text-transform: uppercase;
-  color: white;
-  margin-left: 25px;
-}
-
-a:hover{
-    color: black;
-}
-
-/* ==========================================================================
    Body Layout
    ========================================================================== */
-h1{
+h1.contact{
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   text-transform: uppercase;
+  color: #89DA59;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .first{
@@ -186,20 +142,7 @@ textarea{
 }
 
 
-/* ==========================================================================
-   Footer
-   ========================================================================== */
 
-.footer{
-  background: #80BD9E;
-  width: 100%;
-  padding:5px 0px 5px 45px;
-  float: left;
-  clear: both;
-  position: fixed;
-  bottom: 0;
-  height: 5%;
-}
 
 /* ==========================================================================
    Buttons
