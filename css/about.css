@@ -119,13 +119,13 @@ body {
 }
 
 .info img{
-  margin-left: 130px;
+  margin-left: 47%;
 }
 
 .info{
   width: 25%;
   float: left;
-  margin-left: 55px;
+  margin-left: 50px;
   padding: 100px 0px 50px 0px;
 }
 
@@ -150,7 +150,7 @@ body {
     text-decoration: none;
     border: none;
     position: fixed;
-    left: 45%;
+    left: 41%;
     bottom: 20%;
    }
 
