@@ -115,6 +115,10 @@ h1.contact{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.form {
+  background: #F5FFFA;
+}
+
 .first{
   float: left;
   width: 25%;
@@ -139,6 +143,7 @@ textarea{
   border: solid #D3D3D3 1px;
   margin: 0% 32% 0% 0%;
   color: #D3D3D3;
+
 }
 
 
@@ -147,7 +152,7 @@ textarea{
 /* ==========================================================================
    Buttons
    ========================================================================== */
-button {
+#submit {
     text-align: center;
     background: #F98866;
     border-radius: 5px;
