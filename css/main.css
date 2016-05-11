@@ -170,7 +170,7 @@ img.nic{
     position: absolute;
     left: 83%;
     bottom: 10%;
-    display: none;
+    border: 5px solid #89DA59;
 }
 
 /* ==========================================================================

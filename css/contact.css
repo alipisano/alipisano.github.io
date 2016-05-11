@@ -107,6 +107,7 @@ body {
 /* ==========================================================================
    Body Layout
    ========================================================================== */
+
 h1.contact{
   text-align: center;
   font-size: 20px;
@@ -115,9 +116,6 @@ h1.contact{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.form {
-  background: #F5FFFA;
-}
 
 .first{
   float: left;
