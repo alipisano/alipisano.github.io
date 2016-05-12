@@ -142,7 +142,7 @@ body {
   margin: 0 auto;
 }
 
-.started {
+#started{
     text-align: center;
     background: #F98866;
     border-radius: 5px;
@@ -157,7 +157,7 @@ body {
     
    }
 
-.started:hover{
+#started:hover{
     color: black;
 }
 
