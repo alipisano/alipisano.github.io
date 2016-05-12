@@ -109,35 +109,39 @@ body {
    Body Layout
    ========================================================================== */
 
+.info{
+  width: 33%;
+  float: left;
+  padding: 100px 0px 0px 0px;
+  text-align: center;
+}
+
 .info h3{
   font-size: 20px;
   text-transform: uppercase;
   color: #89DA59;
   font-family: 'Roboto Condensed', sans-serif;
-  text-align: center;
-  margin-left: 64px;
 }
 
 .info img{
-  margin-left: 47%;
-}
-
-.info{
-  width: 25%;
-  float: left;
-  margin-left: 50px;
-  padding: 100px 0px 50px 0px;
 }
 
 .info>p{
-  margin-left: 88px;
+  padding: 5px 30px;
   font-size: 20px;
+  float: none;
 }
 
 
 /* ==========================================================================
    Buttons
    ========================================================================== */
+
+.button-container {
+  width: 200px;
+  margin: 0 auto;
+}
+
 .started {
     text-align: center;
     background: #F98866;
@@ -149,9 +153,8 @@ body {
     color: white;
     text-decoration: none;
     border: none;
-    position: fixed;
-    left: 41%;
-    bottom: 20%;
+    margin: 0 auto;
+    
    }
 
 .started:hover{

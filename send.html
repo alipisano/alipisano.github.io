@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/send.css">
    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans+Condensed:300|Londrina+Outline' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -26,38 +26,24 @@
     <nav class="navbar">
       <ul>
         <li class="bold"><strong><a href="file:///Users/alexandrapisano/Desktop/FEWD/alipisano.github.io/index.html">Home</a></strong></li>
-        <li class="bold"><strong><a href="#">Send</a></strong></li>
+        <li class="bold"><strong><a href="file:///Users/alexandrapisano/Desktop/FEWD/alipisano.github.io/send.html">Send</a></strong></li>
         <li><a href="file:///Users/alexandrapisano/Desktop/FEWD/alipisano.github.io/about.html">About</a></li>
         <li><a href="file:///Users/alexandrapisano/Desktop/FEWD/alipisano.github.io/contact.html">Contact</a></li>
       </ul>
     </nav>
     </header>
 
-<section class="banner clearfix"> 
- <section class="info">
-    <img src="img/person.png" alt="person" height="75px" width="75px">
-    <h3>Pick A Friend</h3>
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-  </section>
-
-  <section class="info">
-   <img src="img/message.png" alt="message" height="75px" width="75px">
-    <h3>Create Your Message</h3>
-    <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-  </section>
+ <form>
+  <div class="first">
+  <input type="text" name="fullName" placeholder="Name"> 
+  <input type="email" name="email" placeholder="Email address">
+  <input type="text" name="subject" placeholder="Subject">
+  </div>
   
-  <section class="info">
-    <img src="img/cage.jpg" alt="cage" height="75px" width="75px">
-    <h3>Send a Cage</h3>
-    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>
-  </section>
-
-</section>
-
-<div class="button-container">
-  <button class="started">Let's Get Started</button>  
-</div>
-
+  <textarea name="textarea" rows="10" cols="50">Message</textarea>
+  
+  <button id="submit">Submit</button>
+  </form>
 
    <footer>
       <div class="footer">Made with <img src="img/heart-icon.png" height="10px" width="10px"> at <a href="http://generalassemb.ly">General Assembly</div>
