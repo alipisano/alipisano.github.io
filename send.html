@@ -33,17 +33,25 @@
     </nav>
     </header>
 
+ 
  <form>
-  <div class="first">
-  <input type="text" name="fullName" placeholder="Name"> 
-  <input type="email" name="email" placeholder="Email address">
-  <input type="text" name="subject" placeholder="Subject">
-  </div>
-  
-  <textarea name="textarea" rows="10" cols="50">Message</textarea>
-  
-  <button id="submit">Submit</button>
+    <div class="first">
+      <input type="text" name="fullName" placeholder="Name"> 
+      <input type="email" name="email" placeholder="Email address">
+      <input type="text" name="subject" placeholder="Subject">
+      </div>
+   <button id="send">Send</button>
   </form>
+
+<!-- Carousel HTML -->
+  <div id="container">
+        <img id="current-image" src="images/image_1.jpg">
+        <div id="buttons-wrapper">
+          <form>
+            <button type="button" id="prev" class="btn" disabled="true">Previous</button>
+            <button type="button" id="next" class="btn">Next</button>
+          </form> 
+    </div>
 
    <footer>
       <div class="footer">Made with <img src="img/heart-icon.png" height="10px" width="10px"> at <a href="http://generalassemb.ly">General Assembly</div>

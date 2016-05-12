@@ -245,7 +245,7 @@ button#start {
 footer{
   background: #80BD9E;
   width: 100%;
-  padding:5px 0px 5px 45px;
+  padding: 5px 0px 10px 45px;
   float: left;
   clear: both;
   position: fixed;
