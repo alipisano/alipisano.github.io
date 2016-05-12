@@ -12,7 +12,7 @@ $('.nic').fadeIn();
 
 // Create an array of image paths
 
-var images = ["img/image_1.jpg", "img/image_2.jpg", "img/image_3.jpg"];
+var images = ["img/image_1.jpg", "img/image_2.jpg", "img/image_3.jpg", "img/image_4.jpg", "img/image_5.jpg", "img/image_6.jpg"];
 
 // Set a variable for our currentPosition
 var currentPosition = 0;
